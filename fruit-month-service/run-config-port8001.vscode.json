@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Fruit Month Service - Port 8001",
+            "request": "launch",
+            "mainClass": "com.mcgillmicroservices.fruit_month_service.FruitMonthServiceApplication",
+            "projectName": "fruit-month-service",
+            "args": [
+                "--server.port=8001"
+            ],
+            "env": {
+                "SPRING_PROFILES_ACTIVE": ""
+            }
+        }
+    ]
+} 
